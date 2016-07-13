@@ -1,0 +1,25 @@
+{
+	"resultcode":"200",
+	"reason":"成功的返回",
+	"result":{
+		"movieid":"208076",
+		"rating":"6.4",
+		"genres":"喜剧",
+		"runtime":"114分钟",
+		"language":"汉语普通话",
+		"title":"港囧",
+		"poster":"http:\/\/v.juhe.cn\/movie\/img?95774",
+		"writers":"束焕,苏亮,...",
+		"film_locations":"中国",
+		"directors":"徐峥",
+		"rating_count":"17750",
+		"actors":"徐峥 Zheng Xu,赵薇 Vicki Zhao,包贝尔 Beier Bao,杜鹃 Dun Juan",
+		"plot_simple":"徐来（徐峥 饰）陪伴老婆（赵薇 饰）及家人来到香港旅游，计划与大学初恋（杜鹃 饰）偷偷会面。无奈拍摄纪录片的小舅子（包贝尔 饰）拉拉阴魂不散，一路追随，识破了徐来的“不轨”企图。你追我赶，风波不断，一场合家欢乐香港游，变成了惊心动魄的历险与逃亡，昔日女神和身边贤妻之间的选择与挣扎……",
+		"year":"2015",
+		"country":"中国",
+		"type":null,
+		"release_date":"20150925",
+		"also_known_as":""
+	},
+	"error_code":0
+}

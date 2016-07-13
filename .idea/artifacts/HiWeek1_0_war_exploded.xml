@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="HiWeek1_0:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/HiWeek1_0_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HiWeek1_0" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="fastjson-1.2.5.jar" module-name="HiWeek1_0" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-io-2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/gson-2.3.2-SNAPSHOT.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.36-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/servlet-api.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="HiWeek1_0/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeMySet</servlet-name>
+    <servlet-class>com.HiWeek.Servlet.ClientServlet.user.ChangeMySet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCollect</servlet-name>
+    <servlet-class>com.HiWeek.Servlet.ClientServlet.activity.AddCollect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteCollect</servlet-name>
+    <servlet-class>com.HiWeek.Servlet.ClientServlet.activity.DeleteCollect</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CollectFind</servlet-name>
+    <servlet-class>com.HiWeek.Servlet.ClientServlet.activity.CollectFind</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HotServlet</servlet-name>
+    <servlet-class>com.HiWeek.Servlet.ClientServlet.activity.HotServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ChangeMySet</servlet-name>
+    <url-pattern>/servlet/ChangeMySet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCollect</servlet-name>
+    <url-pattern>/servlet/AddCollect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCollect</servlet-name>
+    <url-pattern>/servlet/DeleteCollect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CollectFind</servlet-name>
+    <url-pattern>/servlet/CollectFind</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HotServlet</servlet-name>
+    <url-pattern>/servlet/HotServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
